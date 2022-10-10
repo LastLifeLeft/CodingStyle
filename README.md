@@ -74,6 +74,7 @@ Font     | `Fnt`  | `FntDefault`, `FntTitle`
 Timeline | `Tml`  | `TmlIDontUseTheseEither`
 Object   | `O`    | `OBullet`, `OController`
 Room     | `Rm`   | `RmMenu`, `RmLoadingScreen`
+Script   | `Sc`   | `ScCameraControl`, `ScTween`
 
 ## Library prefix
 All resources which are part of a library should be prefixed by the common
