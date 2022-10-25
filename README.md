@@ -69,7 +69,6 @@ prefix.
 Library name: CE
 Common prefix: ce
 Resource names: CE_SprButton, CE_OController, CE_RmEditor
-Script names: ce_load_level, ce_render_static_object, ce_send_data
 ```
 
 If a resource is only used for example/demo/testing purposes, it shouldn't be
@@ -81,10 +80,7 @@ object, they should be prefixed by the object name (without the object prefix):
 
 ```
 Object: OPlayer
-Scripts: player_get_health, player_set_experience, player_spawn
-
-Object: CE_OButton
-Scripts: ce_button_create, ce_button_draw, ce_button_on_click
+Scripts: player_ScGetHealth, player_ScSetExperience, player_ScSpawn
 ```
 
 # Project structure
