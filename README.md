@@ -3,10 +3,7 @@
 
 # Table of Contents
 * [General overview](#general-overview)
-* [Project naming](#project-naming)
 * [Resource naming](#resource-naming)
-    * [Scripts](#scripts)
-    * [Other resources](#other-resources)
     * [Library prefix](#library-prefix)
     * [Special cases](#special-cases)
 * [Project structure](#project-structure)
@@ -44,24 +41,8 @@ etc. is forbidden.
 * Soft max for line length is 80 characters, hard max is 100.
 * Use [GMDoc](https://github.com/kraifpatrik/gmdoc) to document your code.
 
-# Project naming
-All *.yyp project names are lowercase, with words separated by `-` (minus sign).
-If a project is a sub-project of a larger library, it should be prefixed with a
-prefix common for the library. Prefixes are lowercase abbreviations.
-
-```
-Library name: CE
-Common prefix: ce
-Project names: ce-assert, ce-string-utils, ce-tween
-```
-
 # Resource naming
-## Scripts
-All script names are `lowercase_separated_by_underscores` and they don't have a
-type prefix: `load_level`, `render_static_object`, `send_data`, ...
-
-## Other resources
-All other resources names are `UpperCamelCase`, prefixed by the resource type:
+All resources names are `UpperCamelCase`, prefixed by the resource type:
 
 Resource | Prefix | Example
 -------- | ------ | -------
