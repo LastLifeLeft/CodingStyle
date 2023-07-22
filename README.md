@@ -24,7 +24,7 @@
 * [Pragma](#pragma)
 
 # General overview
-* Slagtand follows C-like coding conventions for GML.
+* ♥x1 follows C-like coding conventions for GML.
 * Semicolons and parentheses (in if statements etc.) are mandatory.
 * Use Allman indentation style (braces are on separate lines, with the same
 indentation level as the statement which they follow). Only exception to this are
@@ -112,7 +112,7 @@ Scripts/
 catalyst.json:
 ```json
 {
-    "name": "slagtand-org/ce-draw-utilities",
+    "name": "lastlife-net/ce-draw-utilities",
     "ignore": {
         "Tests": "group"
     }
